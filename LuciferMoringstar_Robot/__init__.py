@@ -28,13 +28,13 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  SAMANTHA MOVIE BOT
     
-➥ Creator : [LXR YOUTUBER](www.youtube.com/C/LXRYOUTUBER)
+➥ Creator : [LXR YOUTUBER](https://youtube.com/channel/UCqRmM0N9Z-7bBiTqJsfFWwg)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me]()
+➥ Tutorial : [Click Me](https://youtube.com/channel/UCqRmM0N9Z-7bBiTqJsfFWwg)
 """
