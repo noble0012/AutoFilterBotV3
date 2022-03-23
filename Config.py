@@ -35,11 +35,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+**Hi, I'm Samantha Movie Bot**
 
 ⭕️ നിങ്ങൾക്ക് സിനിമ വേണമെങ്കിൽ ആദ്യം ഗ്രൂപ്പിൽ ജോയിൻ ചെയുക ⭕️
 
-💘  𝙹𝙾𝙸𝙽  :  @malayalammoviesmms  💘.
+💘  𝙹𝙾𝙸𝙽  :  https://t.me/+1Pvi0kFnMu8zZjM9  💘.
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 START_IMG = environ.get("START_IMG", "") 
