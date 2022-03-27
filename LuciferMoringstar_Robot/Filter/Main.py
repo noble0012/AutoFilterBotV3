@@ -146,13 +146,13 @@ async def group(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
-            poster=None
-            if API_KEY:
-                poster=await get_poster(search)
-            if poster:
-                await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
-            else:
-                await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+            
+            
+                
+            
+                
+            
+            await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -164,13 +164,10 @@ async def group(client, message):
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
         )
-        poster=None
-        if API_KEY:
-            poster=await get_poster(search)
-        if poster:
-            await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
-        else:
-            await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+        
+        
+            
+        await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
